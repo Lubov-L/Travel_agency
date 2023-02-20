@@ -1,0 +1,6 @@
+.nav {
+    max-width: 1200px;
+}
+.nav__link {
+    font-weight: bold;
+}
