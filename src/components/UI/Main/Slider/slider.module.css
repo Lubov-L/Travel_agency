@@ -1,4 +1,15 @@
 .slider {
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
+}
+
+.slider__img {
+    width: 100%;
+    max-height: 600px;
+    box-sizing: border-box;
+}
+
+.slider__img > img {
+    width: 100%;
+    object-fit: cover;
 }
