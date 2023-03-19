@@ -15,8 +15,9 @@ const Slider = () => {
         <div className={cl.slider}>
             <Swiper
                 cssMode={true}
-                mousewheel={true}
+                navigation={false}
                 loop={true}
+                mousewheel={true}
                 speed={6000}
                 autoplay={{
                     delay: 5000,
