@@ -1,13 +1,13 @@
 import './styles/app.css';
 import Navigation from "./components/UI/Navigation/Navigation";
 import Footer from "./components/UI/Footer/Footer";
-import Slider from "./components/UI/Main/Slider/Slider";
+import MainPage from "./components/UI/Main/MainPage";
 
 function App() {
     return (
         <div className="App">
             <Navigation/>
-            <Slider/>
+            <MainPage/>
             <Footer/>
         </div>
     );

@@ -3,7 +3,7 @@ import cl from "./footer.module.css";
 
 const Footer = () => {
     return (
-        <div className={cl.footer}>
+        <div className="footer">
             <div className={cl.footer__links}>
                 <a href="public/index.html" className={cl.footer__link}>Company</a>
                 <a href="public/index.html" className={cl.footer__link}>Tours</a>
