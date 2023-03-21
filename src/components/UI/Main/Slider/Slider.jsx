@@ -13,7 +13,6 @@ import 'swiper/css/effect-fade';
 const Slider = () => {
     return (<div className={cl.slider}>
         <Swiper
-            cssMode={true}
             navigation={false}
             loop={true}
             mousewheel={true}
@@ -21,7 +20,8 @@ const Slider = () => {
                 delay: 5000,
                 disableOnInteraction: false,
             }}
-            speed={1500}
+            speed={2000}
+            effect={"fade"}
             modules={[Mousewheel, Keyboard, Autoplay, EffectFade]}
         >
             <SwiperSlide className={cl.slider__img}>
