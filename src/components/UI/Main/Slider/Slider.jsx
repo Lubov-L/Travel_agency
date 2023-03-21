@@ -1,13 +1,10 @@
 import React from 'react';
 import cl from "./slider.module.css";
 
-import {Mousewheel, Keyboard, Autoplay, EffectFade} from 'swiper';
+import {Autoplay, EffectFade} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 
 const Slider = () => {
@@ -15,14 +12,13 @@ const Slider = () => {
         <Swiper
             navigation={false}
             loop={true}
-            mousewheel={true}
             autoplay={{
                 delay: 5000,
                 disableOnInteraction: false,
             }}
             speed={2000}
             effect={"fade"}
-            modules={[Mousewheel, Keyboard, Autoplay, EffectFade]}
+            modules={[Autoplay, EffectFade]}
         >
             <SwiperSlide className={cl.slider__img}>
                 <img src="/images/slider1.jpg" alt="Slider"></img>
