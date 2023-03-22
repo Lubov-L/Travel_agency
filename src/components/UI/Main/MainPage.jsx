@@ -6,6 +6,7 @@ const MainPage = () => {
     return (
         <div className="main__page">
             <Slider/>
+
         </div>
     );
 };
