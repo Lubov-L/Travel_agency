@@ -1,6 +1,6 @@
 import React from 'react';
 import './toursList.css';
-import TourCard from "./TourCard/TourCard";
+import {TourCard} from "./TourCard/TourCard";
 
 const ToursList = () => {
     return (

@@ -1,0 +1,8 @@
+.tour__card {
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.tour__card__img > img {
+    max-width: 300px;
+}

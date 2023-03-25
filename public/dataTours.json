@@ -4,7 +4,7 @@
     "type": "Tour",
     "name": "Uncover India: High Deserts & Markets",
     "price": "2000",
-    "image": "./images/top1.1.jpg",
+    "image": "./images/India.jpeg",
     "description": "Now's the time to explore India on your terms with this tour that's affordable for young travellers. Join us on a 15-day tour that showcases India's man-made wonders and natural marvels without missing its most famous cities and sights. Get your phone ready for the shining marble of the Taj Mahal and the sparkling shores of Goa, not to mention Rajasthan’s colourful forts and temples. Then opt to put your phone away as you truly connect with the culture and spirit of this incredible land. Our expert Chief Experience Officers (CEOs) let you and your fellow travellers encounter India the way you (and your wallet) like."
   },
   {
@@ -12,15 +12,15 @@
     "type": "Vacation",
     "name": "Discover Japan",
     "price": "2000",
-    "image": "./images/top2.1.jpg",
-    "description": "From the towers and gadgets of Tokyo to the serenity of sacred shrines and the soaring beauty of Mt Fuji, this tour provides the perfect blend of guided excursions and free time to explore this fascinating region at your own pace. Linger in the gardens of Kyoto, shoot through the mountain air on a Shinkansen bullet train, and stay in a traditional Japanese Inn."
+    "image": "./images/Japan.jpeg",
+    "description": "From the towers and gadgets of Tokyo to the serenity of sacred shrines and the soaring beauty of Mt Fuji, this tour provides the perfect blend of guided excursions and free time to explore this fascinating region at your own pace. Linger in the gardens of Kyoto, shoot through the mountain air on a Shin bullet train, and stay in a traditional Japanese Inn."
   },
   {
     "id": 3,
     "type": "Cruise",
     "name": "Bahamas Cruises",
     "price": "4500",
-    "image": "./images/top3.1.jpg",
+    "image": "./images/Bahamas.jpeg",
     "description": "Taking a cruise to the Bahamas can be a wonderful short getaway or a longer cruise vacation and is a great option for the first time cruiser. The natural beauty of the Bahamas shines in its pristine white beaches, aquamarine waters, and lush vegetation. These natural features, coupled with a sunny climate, have made it a premium cruise destination."
   },
   {
@@ -28,7 +28,7 @@
     "type": "Cruise",
     "name": "Caribbean cruise",
     "price": "2100",
-    "image": "./images/top4.1.jpg",
+    "image": "./images/Caribbean.jpeg",
     "description": "A Caribbean cruise feeds the soul and rejuvenates the body. The Caribbean's warm sun, soft beaches and turquoise waters are the perfect prescription for relaxation. Here you can explore the culture and uncover nature's wonder in the beautiful turquoise seas and diverse islands. Find adventure parasailing high above it all or down below, snorkeling or swimming with the dolphins."
   },
   {
@@ -36,7 +36,7 @@
     "type": "Cruise",
     "name": "Panama Canal",
     "price": "1450",
-    "image": "./images/top5.1.jpg",
+    "image": "./images/Panama.jpeg",
     "description": "Taking a cruise through the Panama Canal allows travelers to witness first hand this marvel of modern engineering. The canal system is made up of three locks and a series of artificial lakes and canals. As ships pass the locks from the east their elevation is gradually lowered and as they pass the final set of locks, the Gatun locks, the ships ascend an amazing 85 feet bringing them back to sea level. The complete journey takes about 8-10 hours in each direction."
   },
   {
@@ -44,7 +44,7 @@
     "type": "Cruise",
     "name": "Scandinavia Cruise",
     "price": "2000",
-    "image": "./images/top6.2.png",
+    "image": "./images/Scandinavia.jpeg",
     "description": "Discover the beauty and warmth of the British Isles as you visit quaint villages and learn about medieval history and take in the beautiful vistas. Whichever area you choose to explore you will be welcomed by friendly people and historical attractions that will provide enriching experiences which are as varied as your interests."
   },
   {
@@ -52,7 +52,7 @@
     "type": "Cruise",
     "name": "Rhine River Cruise",
     "price": "1900",
-    "image": "./images/top7.1.jpg",
+    "image": "./images/Rhine-river-cruise.jpg",
     "description": "Rhine River Cruises offer a romantic adventure on one of Europe’s most storied waterways, with fairytale castle-dotted hillsides, picturesque Old World villages, terraced vineyards and centuries-old fortresses. Experience the legendary Black Forest, the spectacular Rhine River Gorge and the fabled Lorelei Rock."
   },
   {
@@ -60,15 +60,15 @@
     "type": "Cruise",
     "name": "Alaska Cruise",
     "price": "800",
-    "image": "./images/top8.1.png",
-    "description": "A cruise to Alaska is more than just a vacation, it's an experience you'll never forget. Stunning ports like Ketchikan, Juneau, Skagway and the Hubbard Glacier will provide visual landscapes that only Alaska can deliver. These cruises generally run from 6 to 14 days to leave plenty of time for whale watching, fishing and other outdoor experiences. Don't forget to take in the fantastic wildlife along the way as Alaska's moose, sheep and even bears can be seen in their natural habitat."
+    "image": "./images/Alaska.jpeg",
+    "description": "A cruise to Alaska is more than just a vacation, it's an experience you'll never forget. Stunning ports like Juneau and the Hubbard Glacier will provide visual landscapes that only Alaska can deliver. These cruises generally run from 6 to 14 days to leave plenty of time for whale watching, fishing and other outdoor experiences. Don't forget to take in the fantastic wildlife along the way as Alaska's moose, sheep and even bears can be seen in their natural habitat."
   },
   {
     "id": 9,
     "type": "Cruise",
     "name": "Mediterranean Cruise",
     "price": "1000",
-    "image": "./images/top9.1.jpg",
+    "image": "./images/Mediterranean.jpeg",
     "description": "Embarking on a Mediterranean cruise is like being whisked away on a romantic odyssey. The Mediterranean will greet you with warm breezes, sparkling blue water, fresh seafood, medieval towns and European culture combined to create a relaxing and enlightening vacation. Mediterranean cruises offer plenty of port choices, big and small. You will be able to escape the crowds if you choose a ship small enough to fit into the more intimate ports."
   },
   {
@@ -76,7 +76,7 @@
     "type": "Tour",
     "name": "Northern Thailand Adventure",
     "price": "1100",
-    "image": "./images/top10.1.jpg",
+    "image": "./images/NorthernThailand.jpeg",
     "description": "Start in Bangkok and end in Chiang Mai! With the In-depth Cultural tour Northern Thailand Adventure, you have a 14 days tour package taking you through Bangkok, Thailand and 5 other destinations in Thailand. Northern Thailand Adventure includes accommodation, an expert guide, meals, transport and more."
   },
   {
@@ -84,23 +84,23 @@
     "type": "Tour",
     "name": "Vietnam Intro 9 Day",
     "price": "1330",
-    "image": "./images/top11.1.jpg",
+    "image": "./images/Vietnam2.jpeg",
     "description": "Vietnam Intro is the most amazing way to experience Vietnam! You’ll discover crazy Hanoi, experience the stunning Ha Long Bay, go kayaking, crab fishing with traditional fisherman, soak up fascinating local culture, learn to cook delicious Vietnamese food, relax on beautiful beaches, party the night away and much more. And you’ll have an awesome group leader with you from the moment you step off the plane, an instant group of friends to share your adventure with and help with all your onward travel. Get ready for the trip of a lifetime!"
   },
   {
     "id": 12,
     "type": "Tour",
-    "name": "Felucca Odyssey",
+    "name": "Odyssey",
     "price": "1250",
-    "image": "./images/top12.1.jpg",
-    "description": "An adventure full of history, wonders and the complete Nile experience on a Felucca! Uncover the wonders of Egypt on this 9 day Felucca Odyssey. Hunt for lost treasures in bustling Cairo markets and witness the mighty Pyramids. Kick back and relax on a Felucca with ancient wonders at your backdrop while embracing the Nubian lifestyle."
+    "image": "./images/Odyssey,jpeg",
+    "description": "An adventure full of history, wonders and the complete Nile experience on a Odyssey! Uncover the wonders of Egypt on this 9 day  Odyssey. Hunt for lost treasures in bustling Cairo markets and witness the mighty Pyramids. Kick back and relax with ancient wonders at your backdrop while embracing the Nubian lifestyle."
   },
   {
     "id": 13,
     "type": "Tour",
     "name": "Cambodia to Vietnam: Night Markets & Noodle-Making",
     "price": "1500",
-    "image": "./images/top13.1.jpg",
+    "image": "./images/Cambodia.jpeg",
     "description": "Now's the time to explore Cambodia and Vietnam on your terms with this tour that's affordable for young travellers. Plug into the electricity of Bangkok and Cambodia's bustling streets, get a living history lesson as you look upon Angkor Wat's ancient stone faces, and bliss out on white-sand beaches. Combine must-see highlights and free time to explore, and you've got the Southeast Asia journey of a lifetime."
   },
   {
@@ -108,7 +108,7 @@
     "type": "Tour",
     "name": "Golden Triangle Tour - 3 Days",
     "price": "1500",
-    "image": "./images/top7.1.jpg",
+    "image": "./images/GoldenTriangle.jpeg",
     "description": "Three of India's most famous cities for sightseeing await you on this comprehensive three day, two-night tour of the Golden Triangle: Delhi, Agra, and Jaipur. This jaunt through some of India's most breathtaking sightseeing destinations begins in Delhi with agra and jaipur."
   },
   {
@@ -116,7 +116,7 @@
     "type": "Vacation",
     "name": "Lifetime Experience In Sri Lanka",
     "price": "1500",
-    "image": "./images/top8.1.png",
+    "image": "./images/SriLanka.jpeg",
     "description": "This exclusive 8-day tour is designed with a fine balance of history and culture, nature and wildlife, city and beach time. You will enjoy the warm Sri Lankan hospitality that comes from the heart of cosy hotels and resorts. Sri Lanka is famous as a comprehensive travel destination since it includes all the elements that you need as a traveller like beaches, mountains, historical sites, wildlife, and rich culture. Your multilingual speaking tour leader, who has extensive knowledge of all aspects of this incredible country, will show you many fascinating and interesting places and he will share his knowledge about Sri Lankan history and culture. That is why we are sure you will have an amazing, fulfilling holiday and wonderful memories for a lifetime. Sri Lanka is an economy-friendly travel destination; it’s a place where you can get world-class experiences without world-class costs."
   },
   {
@@ -124,39 +124,39 @@
     "type": "Vacation",
     "name": "King Ramses - 13 days",
     "price": "1500",
-    "image": "./images/top9.1.jpg",
-    "description": "Visit the towering Pyramids of Giza, relax on a felucca as you cruise down the Nile and discover the ancient wonders of Valley of the Kings, Karnak Temple and Philae Temple, before a few days by the beautiful Red Sea in Hurghada. This is Egypt at its best in 13 wonderful days."
+    "image": "./images/KingRamses.jpeg",
+    "description": "Visit the towering Pyramids of Giza, relax on a  as you cruise down the Nile and discover the ancient wonders of Valley of the Kings,  Temple and  Temple, before a few days by the beautiful Red Sea in . This is Egypt at its best in 13 wonderful days."
   },
   {
     "id": 17,
     "type": "Vacation",
-    "name": "Amazing Vietnam Super Save Package - Hanoi / Halong Bay / Hoi An / Ho Chi Minh",
+    "name": "Amazing Vietnam Super Save Package",
     "price": "1200",
-    "image": "./images/top10.1.jpg",
-    "description": "Amazing Vietnam Super Save Package offers a wonderful mix of tropical beaches, post-colonial charm, a string of world heritage sites, stunning scenery, cuisine that enchants visitors, and a home-grown flair for hospitality. Start your trip from the North, where you will be welcomed by the locals with a warm attitude in the Hanoi countryside. Be ready to be amazed by the spectacular Halong Bay - one of the seven wonders of nature. Then head to Hoi An, an ancient lantern town that sits peacefully by the Thu Bon river. The essence of its tranquillity will cherish your leisure time. Travel to the south and explore the mighty Mekong delta, which is known as the 'rice bowl of Vietnam', and the mysterious underground system in Cu Chi Tunnels. "
+    "image": "./images/Vietnam3.jpeg",
+    "description": "Amazing Vietnam Super Save Package offers a wonderful mix of tropical beaches, post-colonial charm, a string of world heritage sites, stunning scenery, cuisine that enchants visitors, and a home-grown flair for hospitality. Start your trip from the North, where you will be welcomed by the locals with a warm attitude in the Hanoi countryside. Be ready to be amazed by the spectacular  Bay - one of the seven wonders of nature. Then head to Hoi An, an ancient lantern town that sits peacefully by the Thu Bon river. The essence of its tranquillity will cherish your leisure time. Travel to the south and explore the mighty Mekong delta, which is known as the 'rice bowl of Vietnam', and the mysterious underground system in Cu Chi Tunnels. "
   },
   {
     "id": 18,
     "type": "Vacation",
-    "name": "Petra and Wadi Rum 3-Day Tour from Jerusalem",
+    "name": "Tour from Jerusalem",
     "price": "1000",
-    "image": "./images/top11.1.jpg",
-    "description": "Experience the rich history, culture and natural beauty of Jordan on this three day Petra and Wadi Rum tour from Jerusalem. The tour is fully guided, with transportation to and from Jerusalem, all meals included, and two nights in a Bedouin Campsite. Petra, Madaba and the stunning desert landscape of Wadi Rum await"
+    "image": "./images/Jerusalem.webp",
+    "description": "Experience the rich history, culture and natural beauty of Jordan on this three day Petra and Wadi Rum tour from Jerusalem. The tour is fully guided, with transportation to and from Jerusalem, all meals included, and two nights in a Bedouin Campsite. Petra and the stunning desert landscape of Wadi Rum await"
   },
   {
     "id": 19,
     "type": "Tour",
     "name": "Bali Experience 12 Day",
     "price": "3100",
-    "image": "./images/top12.1.jpg",
-    "description": "Bali Experience is our premium 12 day group tour. With epic upgraded accommodation and lots of amazing inclusions, it's perfect for those wanting to see the best of Bali in style.\nYou’ll discover Seminyak nightlife, visit ancient temples, learn to surf on iconic Bali beaches, swim under amazing waterfalls, experience local culture, hand feed wild monkeys, swim with wild dolphins, explore tropical islands, snorkel with sea turtles, learn to cook delicious local food, hike an active Volcano for sunrise, relax with a traditional massage and more! All with an awesome group leader from the moment you step of the plane, an instant group of friends to share your adventure, amazing accommodation and so much included. Get ready for the trip of a lifetime!"
+    "image": "./images/Bali.jpeg",
+    "description": "Bali Experience is our premium 12 day group tour. With epic upgraded accommodation and lots of amazing inclusions, it's perfect for those wanting to see the best of Bali in style.You’ll discover nightlife, visit ancient temples, learn to surf on iconic Bali beaches, swim under amazing waterfalls, experience local culture, hand feed wild monkeys, swim with wild dolphins, explore tropical islands, snorkel with sea turtles, learn to cook delicious local food, hike an active Volcano for sunrise, relax with a traditional massage and more! All with an awesome group leader from the moment you step of the plane, an instant group of friends to share your adventure, amazing accommodation and so much included. Get ready for the trip of a lifetime!"
   },
   {
     "id": 20,
     "type": "Tour",
-    "name": "Golden Triangle Tour with Varanasi",
+    "name": "Golden Triangle Tour",
     "price": "1670",
-    "image": "./images/top10.1.jpg",
+    "image": "./images/golden-triangle-tour.jpg.webp",
     "description": "Specially designed for first time travelers to India, classic introduction to the rich culture, tradition, and history, Golden Triangle and Ganges travel package is a must for all those who have been traveling to India for the first time; history buffs and spiritually inclined people. As the name says, in this tour you will be not only visiting the golden triangle attractions (Delhi, Agra and Jaipur) and river, Varanasi and  From architectural marvels to natural beauty to rejuvenating location to colorful rural life, the golden triangle tour encompasses it all."
   },
   {
@@ -164,31 +164,31 @@
     "type": "Tour",
     "name": "10-Day Ancient Egypt Tour with Nile Cruise",
     "price": "670",
-    "image": "./images/top11.1.jpg",
-    "description": "Visit Sakkara's complex of King Zoser, Giza Pyramids, the Egyptian museum and Khan El Khalili market. Fly to Aswan to ride a Felucca on the Nile and see Kitchener & Elephantine islands. Visit the temple of Philia and the High Dam. Enjoy visiting the temples and the monuments of Ancient Egyptians, such as Komombo and Edfu temples, while cruising the Nile. Visit Luxor's Karnak temple the Valley of the Kings with the temple of Hatshepsut."
+    "image": "./images/nile-valley-travel-day.jpg",
+    "description": "Visit 's complex of King , Giza Pyramids, the Egyptian museum and Khan El  market. Fly to Aswan to ride a  on the Nile and see Kitchener & Elephantine islands. Visit the temple of  and the High Dam. Enjoy visiting the temples and the monuments of Ancient Egyptians, such as  and  temples, while cruising the Nile. Visit 's  temple the Valley of the Kings with the temple of Hatshepsut."
   },
   {
     "id": 22,
     "type": "Tour",
     "name": "Japan Express: Osaka to Tokyo",
     "price": "2500",
-    "image": "./images/top10.1.jpg",
-    "description": "From the Buddhist monks of Kōyasan to the high rollers of Tokyo, see the many faces of Japan on this condensed tour beginning in Osaka. Savour the region’s culinary delicacies and the beautiful views at Mt Fuji. You'll stay in a mountain temple and really soak up local culture in onsen hot springs. A great combination of the traditional and the contemporary, this adventure provides a taste of the rich culture of Japan."
+    "image": "./images/Tokyo.jpeg",
+    "description": "From the Buddhist monks to the high rollers of Tokyo, see the many faces of Japan on this condensed tour beginning in Osaka. Savour the region’s culinary delicacies and the beautiful views at Mt Fuji. You'll stay in a mountain temple and really soak up local culture in onsen hot springs. A great combination of the traditional and the contemporary, this adventure provides a taste of the rich culture of Japan."
   },
   {
     "id": 23,
     "type": "Vacation",
     "name": "Essential Vietnam & Cambodia",
     "price": "300",
-    "image": "./images/top11.1.jpg",
-    "description": "A wide-ranging adventure showcasing the region’s natural wonders and fascinating cultures, this 17-day trip offers a combination of guided excursions and free time to explore beaches, ruins, urban culture, and awe-inspiring landscapes. Cruise the Mekong for a day and overnight on a traditional sailing junk boat in Halong Bay. Witness the heights of Cambodia's past at Angkor Wat, and contemplate its lows by walking the infamous Killing Fields. Although many activities are included, there is still plenty of time to explore on your own and create the ultimate adventure."
+    "image": "./images/Cambodia.jpeg",
+    "description": "A wide-ranging adventure showcasing the region’s natural wonders and fascinating cultures, this 17-day trip offers a combination of guided excursions and free time to explore beaches, ruins, urban culture, and awe-inspiring landscapes. Cruise the Mekong for a day and overnight on a traditional sailing junk boat in  Bay. Witness the heights of Cambodia's past at Angkor Wat, and contemplate its lows by walking the infamous Killing Fields. Although many activities are included, there is still plenty of time to explore on your own and create the ultimate adventure."
   },
   {
     "id": 24,
     "type": "Vacation",
-    "name": "Vietnam: Historic Cities & Halong Bay Cruising",
+    "name": "Vietnam: Historic Cities & Bay Cruising",
     "price": "550",
-    "image": "./images/top10.1.jpg",
-    "description": "Now's the time to explore Vietnam on your terms with this tour that's affordable for young travellers. Savour your way through Nha Trang on a street food crawl, step into turquoise-coloured paradise in Ha Long Bay, and get some good stories to take back home in bustling Hanoi. With a mix of highlights and free reign to explore how you'd like, this is one introduction to Southeast Asia you won't ever forget."
+    "image": "./images/Vietnam3.jpeg",
+    "description": "Now's the time to explore Vietnam on your terms with this tour that's affordable for young travellers. Savour your way through Nha on a street food crawl, step into turquoise-coloured paradise in Ha Long Bay, and get some good stories to take back home in bustling Hanoi. With a mix of highlights and free reign to explore how you'd like, this is one introduction to Southeast Asia you won't ever forget."
   }
 ]
