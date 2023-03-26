@@ -4,7 +4,7 @@ import {TourCard} from "./TourCard/TourCard";
 
 const ToursList = () => {
     return (
-        <div className="tour__list">
+        <div>
             <TourCard/>
         </div>
     );

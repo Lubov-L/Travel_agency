@@ -1,8 +1,79 @@
+.tour__list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+}
+
 .tour__card {
-    max-width: 900px;
+    max-width: 350px;
     margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+}
+
+.tour__card,
+.tour__card__inf {
+    flex-direction: column;
+}
+
+.tour__card__inf,
+.tour__card__img > img {
+    height: 100%;
+}
+
+.tour__card__inf {
+    max-width: 570px;
+    padding: 10px 5px;
+    min-height: 90px;
 }
 
 .tour__card__img > img {
-    max-width: 300px;
+    max-height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card__description {
+    display: none;
+}
+
+.tour__card__but,
+.tour__card__inf {
+    justify-content: space-between;
+}
+
+.tour__card__but {
+    width: 100%;
+    align-items: center;
+}
+
+.tour__card__but > p {
+    font-size: 18px;
+}
+
+.tour__more {
+    justify-content: flex-end;
+}
+
+.tour__name {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.tour__button {
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgba(77, 133, 233, 0.42);
+}
+
+.tour__more__button,
+.tour__button {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tour__more__button:hover {
+    text-decoration: underline;
 }
