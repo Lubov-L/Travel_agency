@@ -28,7 +28,8 @@ a {
 .tour__card,
 .tour__more,
 .tour__card__but,
-.tour__card__inf {
+.tour__card__inf,
+.tour__button {
     display: flex;
 }
 

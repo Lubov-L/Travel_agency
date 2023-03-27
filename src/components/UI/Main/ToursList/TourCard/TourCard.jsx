@@ -44,8 +44,8 @@ class TourCard extends React.Component {
                                         <p className="card__description">{tour.description}</p>
                                     </div>
                                     <div className="tour__card__but">
-                                        <p>{tour.price} $</p>
-                                        <button className="tour__button">read more</button>
+                                        <p>from {tour.price} $</p>
+                                        <a href="#" className="tour__button">see</a>
                                     </div>
                                 </div>
                             </div>
