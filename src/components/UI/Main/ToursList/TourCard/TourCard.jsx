@@ -28,6 +28,8 @@ class TourCard extends React.Component {
 
 
     render() {
+        const allCardsShown = this.state.count >= this.state.data.length;
+
         return (
             <div className="tour__list-block">
                 <div className="tour__list">
@@ -44,16 +46,18 @@ class TourCard extends React.Component {
                                         <p className="card__description">{tour.description}</p>
                                     </div>
                                     <div className="tour__card__but">
-                                        <p>from {tour.price} $</p>
+                                        <p>from <strong>{tour.price} $</strong></p>
                                         <a href="#" className="tour__button">see</a>
                                     </div>
                                 </div>
                             </div>
                         ))}
                 </div>
-                <div className="tour__more">
-                    <span className="tour__more__button" onClick={this.handleShowMore}>show more</span>
-                </div>
+                {!allCardsShown && (
+                    <div className="tour__more">
+                        <span className="tour__more__button" onClick={this.handleShowMore}>show more</span>
+                    </div>
+                )}
             </div>
         )
     }
