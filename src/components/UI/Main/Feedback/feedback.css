@@ -26,3 +26,8 @@
 .feedback__inf {
     flex-direction: column;
 }
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: black !important;
+}

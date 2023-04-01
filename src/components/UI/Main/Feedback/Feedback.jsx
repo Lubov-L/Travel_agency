@@ -5,14 +5,15 @@ import {Swiper, SwiperSlide} from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+import "swiper/css/navigation";
+import 'swiper/css/scrollbar';
 
-import {EffectCoverflow, Pagination} from "swiper";
+import {EffectCoverflow, Navigation} from "swiper";
 
 class Feedback extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {data: [], count: 9};
+        this.state = {data: []};
     }
 
     componentDidMount() {
@@ -21,7 +22,6 @@ class Feedback extends React.Component {
 
             .then((response) => response.json())
             .then((data) => {
-                data.sort((a, b) => a.date.localeCompare(b.date));
                 this.setState({data});
             })
             .catch(error => {
@@ -39,6 +39,9 @@ class Feedback extends React.Component {
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={"auto"}
+                    navigation={true}
+                    initialSlide={3}
+                    loop={true}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
@@ -46,14 +49,12 @@ class Feedback extends React.Component {
                         modifier: 1,
                         slideShadows: false,
                     }}
-                    pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[Navigation, EffectCoverflow]}
                     className="feedback__slider"
                 >
                     {this.state.data
-                        .filter((feedback, index) => index < this.state.count)
-                        .map((feedback) => (
-                            <SwiperSlide className="feedback__block">
+                        .map((feedback, index) => (
+                            <SwiperSlide key={index} className="feedback__block">
                                 <div className="feedback__inf">
                                     <h2>{feedback.heading}</h2>
                                     <h3>{feedback.name}</h3>
@@ -61,7 +62,6 @@ class Feedback extends React.Component {
                                     <p>{feedback.text}</p>
                                 </div>
                             </SwiperSlide>
-
                         ))}
                 </Swiper>
             </div>
