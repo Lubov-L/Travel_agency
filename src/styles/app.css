@@ -40,6 +40,10 @@ strong {
     display: flex;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .nav {
     min-height: 80px;
     justify-content: space-between;

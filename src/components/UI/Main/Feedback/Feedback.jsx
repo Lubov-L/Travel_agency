@@ -36,12 +36,12 @@ class Feedback extends React.Component {
                 <h2>Feedbacks from our travelers</h2>
                 <Swiper
                     effect={"coverflow"}
+                    loop={true}
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={"auto"}
                     navigation={true}
                     initialSlide={3}
-                    loop={true}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
