@@ -14,11 +14,8 @@
     padding: 30px 20px;
 }
 
-.feedback__inf > p {
+.feedback__text {
     font-size: calc(11px + 0.390625vw);
-    overflow: hidden;
-    white-space: "...";
-    text-overflow: ellipsis;
 }
 
 .feedback__block {
