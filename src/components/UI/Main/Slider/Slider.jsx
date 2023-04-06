@@ -7,7 +7,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 
-const Slider = () => {
+const Slider = ({children}) => {
     return (<div className={cl.slider}>
         <Swiper
             navigation={false}
@@ -30,6 +30,7 @@ const Slider = () => {
                 <img src="/images/slider3.jpg" alt="Slider"></img>
             </SwiperSlide>
         </Swiper>
+        {children}
     </div>);
 };
 

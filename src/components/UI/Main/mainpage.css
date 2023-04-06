@@ -1,0 +1,21 @@
+.main__div__blocks {
+    position: absolute;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-evenly;
+    bottom: 10%;
+    right: 11%;
+    z-index: 3;
+}
+
+.main__inf__text {
+    background-color: rgba(255, 255, 255, 0.27);
+    max-width: 200px;
+    font: italic bold 20px 'Montserrat', sans-serif;
+    padding: 30px 20px;
+    border-radius: 1000px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    align-items: center;
+}

@@ -59,7 +59,7 @@ class Feedback extends React.Component {
                                     <h2>{feedback.heading}</h2>
                                     <h3>{feedback.name}</h3>
                                     <span>{feedback.date}</span>
-                                    <p className="feedback__text">{feedback.text}</p>
+                                    <div className="feedback__text">{feedback.text}</div>
                                 </div>
                             </SwiperSlide>
                         ))}

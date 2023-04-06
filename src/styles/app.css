@@ -22,10 +22,19 @@ strong {
 .tour__card,
 .tour__list,
 .tour__list-block,
+.feedback,
+.main__div {
+    width: 100%;
+}
+
+.nav,
+.footer,
+.tour__card,
+.tour__list,
+.tour__list-block,
 .feedback {
     max-width: 1100px;
     margin: 0 auto;
-    width: 100%;
 }
 
 .nav,
@@ -36,7 +45,9 @@ strong {
 .tour__card__inf,
 .tour__button,
 .feedback__block,
-.feedback__inf {
+.feedback__inf,
+.main__div__blocks,
+.main__inf__text {
     display: flex;
 }
 
@@ -48,6 +59,10 @@ h2 {
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
+}
+
+.main__div {
+    position: relative;
 }
 
 .footer {
