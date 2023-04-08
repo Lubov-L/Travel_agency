@@ -32,7 +32,8 @@ strong {
 .tour__card,
 .tour__list,
 .tour__list-block,
-.feedback {
+.feedback,
+.main__inf__block {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -61,7 +62,8 @@ h2 {
     align-items: center;
 }
 
-.main__div {
+.main__div,
+.main__inf__block {
     position: relative;
 }
 
