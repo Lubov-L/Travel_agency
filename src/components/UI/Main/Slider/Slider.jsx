@@ -6,32 +6,53 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import MainSearch from "../MainInf/MainSearch";
 
-const Slider = ({children}) => {
-    return (<div className={cl.slider}>
-        <Swiper
-            navigation={false}
-            loop={true}
-            autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-            }}
-            speed={2000}
-            effect={"fade"}
-            modules={[Autoplay, EffectFade]}
-        >
-            <SwiperSlide className={cl.slider__img}>
-                <img src="/images/slider1.jpg" alt="Slider"></img>
-            </SwiperSlide>
-            <SwiperSlide className={cl.slider__img}>
-                <img src="/images/slider2.jpg" alt="Slider"></img>
-            </SwiperSlide>
-            <SwiperSlide className={cl.slider__img}>
-                <img src="/images/slider3.jpg" alt="Slider"></img>
-            </SwiperSlide>
-        </Swiper>
-        {children}
-    </div>);
-};
+class Slider extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {data: []};
+    }
+
+    componentDidMount() {
+        fetch("dataSlider.json")
+
+            .then((response) => response.json())
+            .then((data) => {
+                this.setState({data});
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }
+
+    render() {
+
+        return (
+            <div className={cl.slider}>
+                <Swiper
+                    navigation={false}
+                    loop={true}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    }}
+                    speed={2000}
+                    effect={"fade"}
+                    modules={[Autoplay, EffectFade]}
+                >
+                    {this.state.data
+                        .map((slider, index) => (
+                            <SwiperSlide key={index} className={cl.slider__img}>
+                                <img src={slider.image} alt="Slider"></img>
+                            </SwiperSlide>
+                        ))}
+                </Swiper>
+                <MainSearch/>
+            </div>
+        )
+    }
+}
+
 
 export default Slider;

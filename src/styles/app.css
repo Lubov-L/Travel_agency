@@ -33,7 +33,7 @@ strong {
 .tour__list,
 .tour__list-block,
 .feedback,
-.main__inf__block {
+.main__search {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -47,13 +47,17 @@ strong {
 .tour__button,
 .feedback__block,
 .feedback__inf,
-.main__div__blocks,
-.main__inf__text {
+.main__form,
+.main__form > div {
     display: flex;
 }
 
 h2 {
     font-size: 20px;
+}
+
+button {
+    text-transform: uppercase;
 }
 
 .nav {
@@ -62,8 +66,14 @@ h2 {
     align-items: center;
 }
 
-.main__div,
-.main__inf__block {
+.header__h2 {
+    font: italic 25px 'Montserrat', sans-serif;
+    text-align: center;
+    color: color(srgb 0.1616 0.6803 0.9113);
+    margin-bottom: 20px;
+}
+
+.main__div {
     position: relative;
 }
 

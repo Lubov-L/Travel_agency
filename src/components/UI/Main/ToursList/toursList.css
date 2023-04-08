@@ -54,7 +54,8 @@
     margin-top: 15px;
 }
 
-.tour__card__but > p {
+.tour__card__but > p,
+.tour__name {
     font-size: calc(13px + 0.390625vw);
 }
 
@@ -67,7 +68,6 @@
 }
 
 .tour__name {
-    font-size: calc(13px + 0.390625vw);
     font-style: italic;
 }
 

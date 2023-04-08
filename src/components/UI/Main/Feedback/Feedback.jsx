@@ -33,7 +33,7 @@ class Feedback extends React.Component {
 
         return (
             <div className="feedback">
-                <h2>Feedbacks from our travelers</h2>
+                <h2 className="header__h2">Feedbacks from our travelers</h2>
                 <Swiper
                     loop={true}
                     effect={"coverflow"}
