@@ -1,10 +1,10 @@
 import React from 'react';
 import Slider from "./Slider/Slider";
-import "./mainpage.css";
+import "./home.css";
 import ToursList from "./ToursList/ToursList";
 import Feedback from "./Feedback/Feedback";
 
-const MainPage = () => {
+const Home = () => {
     return (
         <div className="main__page">
             <Slider/>
@@ -14,4 +14,4 @@ const MainPage = () => {
     );
 };
 
-export default MainPage;
+export default Home;

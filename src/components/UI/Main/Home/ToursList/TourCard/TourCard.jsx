@@ -47,7 +47,7 @@ class TourCard extends React.Component {
                                     </div>
                                     <div className="tour__card__but">
                                         <p>from <strong>{tour.price} $</strong></p>
-                                        <a href="#" className="tour__button">see</a>
+                                        <a href="/" className="tour__button">see</a>
                                     </div>
                                 </div>
                             </div>
