@@ -10,7 +10,7 @@ import {
 const Navigation = () => {
     return (<Router>
         <div className="nav">
-            <Link to="/home" className={cl.nav__link}>Home</Link>
+            <Link to="/" className={cl.nav__link}>Home</Link>
             <Link to="/tours" className={cl.nav__link}>Tours</Link>
             {/*<Link to="/" className={cl.nav__link}>Cruises</Link>*/}
             {/*<Link to="/" className={cl.nav__link}>Spa tours</Link>*/}
@@ -21,7 +21,7 @@ const Navigation = () => {
 
         <main>
             <Routes>
-                <Route path="/home" element={<Home/>}></Route>
+                <Route path="/" element={<Home/>}></Route>
                 <Route path="/tours" element={<Tours/>}></Route>
             </Routes>
         </main>
