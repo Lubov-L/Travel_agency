@@ -1,3 +1,7 @@
+.swiper {
+    z-index: 1;
+}
+
 .slider {
     width: 100%;
     min-height: 600px;

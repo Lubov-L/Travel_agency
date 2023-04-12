@@ -31,6 +31,7 @@ class Slider extends React.Component {
         return (
             <div className={cl.slider}>
                 <Swiper
+                    className={cl.swiper}
                     navigation={false}
                     loop={true}
                     autoplay={{
