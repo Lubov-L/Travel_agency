@@ -31,7 +31,7 @@ a {
 .feedback,
 .main__search,
 .about {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -57,7 +57,13 @@ button {
     text-transform: uppercase;
 }
 
+ul {
+    list-style-type:square;
+    list-style-position: inside;
+}
+
 .nav {
+    padding: 0 10px;
     min-height: 80px;
     justify-content: space-between;
     align-items: center;

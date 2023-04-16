@@ -1,16 +1,34 @@
 .about {
+    padding: 50px 10px;
     display: grid;
+    grid-gap: 30px 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
 .about__block {
     max-width: 600px;
-    padding-top: 50px;
+    min-height: 500px;
+    box-sizing: border-box;
     font-size: calc(17px + 0.390625vw);
 }
 
-.about > img {
-    max-width: 500px;
+.about__head {
+    margin-bottom: 10px;
+}
+
+.about__block:nth-child(1),
+.about__block:nth-child(4),
+.about__block:nth-child(5) {
+    padding: 20px;
+}
+
+.about__block:last-child {
+    font-style: italic;
+}
+
+.about__block > img {
+    width: 100%;
     max-height: 500px;
+    object-fit: cover;
 }
