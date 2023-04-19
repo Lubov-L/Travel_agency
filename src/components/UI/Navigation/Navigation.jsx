@@ -20,7 +20,6 @@ const Navigation = () => {
             <Link to="/spa" className={cl.nav__link}>Spa tours</Link>
             <Link to="/vacations" className={cl.nav__link}>Vacations</Link>
             <Link to="/about" className={cl.nav__link}>About</Link>
-            {/*<Link to="/" className={cl.nav__link}>+1 (1111) 11 11 11</Link>*/}
         </div>
 
         <main>

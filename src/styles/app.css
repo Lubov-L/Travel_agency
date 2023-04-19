@@ -30,7 +30,8 @@ a {
 .tour__list-block,
 .feedback,
 .main__search,
-.about {
+.about,
+.text__block {
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -74,6 +75,12 @@ ul {
     text-align: center;
     color: color(srgb 0.1616 0.6803 0.9113);
     margin-bottom: 20px;
+}
+
+.text__block {
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
 
 .main__div {
