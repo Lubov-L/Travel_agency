@@ -9,6 +9,7 @@
 
 .feedback__text {
     display: block;
+    margin-top: 10px;
     font-size: calc(11px + 0.390625vw);
     overflow: hidden;
     -moz-box-orient: vertical;
@@ -30,6 +31,21 @@
 
 .feedback__inf {
     flex-direction: column;
+}
+
+.feedback__inf > h3 {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.feedback__inf > span {
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(156, 161, 161);
+}
+
+.feedback__inf > h2 {
+    color: color(srgb 0.1593 0.6781 0.91 / 0.7);
 }
 
 .swiper-button-next:after,

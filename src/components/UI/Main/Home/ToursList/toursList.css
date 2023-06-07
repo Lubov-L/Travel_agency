@@ -80,6 +80,7 @@
 
 .tour__more {
     justify-content: flex-end;
+    margin-right: 20px;
 }
 
 .tour__name {
